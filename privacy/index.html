@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LoveSync: Couple Quiz — Privacy</title>
+<style>
+ :root{--bg:#180a1f;--panel:#2b1233;--text:#f6eef4;--muted:#c9a9c4;--accent:#ff6b9a;--border:#3d2145;}
+ @media (prefers-color-scheme: light){:root{--bg:#fff5f8;--panel:#ffffff;--text:#2a1723;--muted:#8a6b80;--accent:#ff6b9a;--border:#f3d9e4;}}
+ *{box-sizing:border-box}
+ body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+ .wrap{max-width:680px;margin:0 auto;padding:3.5rem 1.25rem 3rem}
+ .badge{display:inline-block;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:800;margin-bottom:.6rem}
+ h1{font-size:1.95rem;margin:0 0 .4rem;line-height:1.2}
+ h2{font-size:1.2rem;margin:2rem 0 .5rem}
+ h3{font-size:1rem;margin:1.4rem 0 .4rem}
+ p,li{color:var(--text)} a{color:var(--accent)}
+ p.lead{color:var(--muted);margin:0 0 2rem}
+ .card{background:var(--panel);border:1px solid var(--border);border-radius:16px;overflow:hidden}
+ a.row{display:flex;align-items:center;justify-content:space-between;padding:1.05rem 1.25rem;color:var(--text);text-decoration:none;border-bottom:1px solid var(--border)}
+ a.row:last-child{border-bottom:none} a.row:hover{background:rgba(255,107,154,.1)}
+ .row .name{font-weight:700} .row .desc{display:block;font-weight:400;font-size:.85rem;color:var(--muted);margin-top:.15rem}
+ .content{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:1.5rem 1.5rem}
+ .content table{border-collapse:collapse;width:100%;margin:1rem 0} .content th,.content td{border:1px solid var(--border);padding:.5rem .7rem;text-align:left;font-size:.92rem}
+ .back{display:inline-block;margin-bottom:1.25rem;color:var(--muted);text-decoration:none;font-size:.9rem}
+ footer{margin-top:2.5rem;color:var(--muted);font-size:.83rem}
+</style></head><body><div class="wrap"><a class="back" href="../">&larr; LoveSync: Couple Quiz · Legal</a><div class="content"><h1 id="privacy-policy-lovesync-couple-quiz">Privacy Policy — LoveSync: Couple Quiz</h1>
+<p><strong>Developer / Publisher:</strong> BBL TECHNOLOGY LTD
+<strong>Contact:</strong> contact@bblvn.store
+<strong>Website:</strong> https://bblvn.store/
+<strong>Effective date:</strong> October 1, 2026</p>
+<p>BBL TECHNOLOGY LTD ("we", "us", "our") operates the mobile application <strong>LoveSync: Couple Quiz</strong> (the "App").
+This Privacy Policy explains what information the App collects, how it is used, and the choices you have. By
+using the App, you agree to the collection and use of information as described here.</p>
+<h2 id="1-information-we-collect">1. Information We Collect</h2>
+<p>The App does <strong>not</strong> require you to create an account or sign in. We collect the following:</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>What it is</th>
+<th>Why we collect it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Display name</strong></td>
+<td>The name you type when you first open the App, used to identify you to your partner inside a quiz room</td>
+<td>Core app functionality — so your partner sees who they're playing with</td>
+</tr>
+<tr>
+<td><strong>Game session data</strong></td>
+<td>Your quiz answers, room code, and score for the duration of one quiz game</td>
+<td>Core app functionality — syncing the game live between your phone and your partner's</td>
+</tr>
+<tr>
+<td><strong>App activity &amp; crash/diagnostic data</strong> (via Firebase Analytics and Firebase Crashlytics)</td>
+<td>Screens viewed, features used, app crashes and performance diagnostics</td>
+<td>Understanding how the App is used and fixing bugs</td>
+</tr>
+<tr>
+<td><strong>Advertising ID / device identifiers</strong> (via attribution SDKs such as Adjust, Meta, and TikTok, bundled in the App's base platform)</td>
+<td>A resettable device advertising identifier</td>
+<td>Measuring how users discover the App (install attribution). <strong>This version of the App does not display ads.</strong></td>
+</tr>
+</tbody>
+</table>
+<p>We do <strong>not</strong> collect your real name (unless you choose to use it as your display name), email address, phone
+number, physical address, photos, contacts, precise or approximate location, financial information, or health
+information.</p>
+<h2 id="2-anonymous-technical-identity">2. Anonymous Technical Identity</h2>
+<p>The App uses Firebase Anonymous Authentication to generate a random technical identifier for your device. This
+happens silently in the background purely so our database security rules can tell "your" game room data apart
+from someone else's — there is no sign-up, no password, and no link to your real identity.</p>
+<h2 id="3-how-game-rooms-work">3. How Game Rooms Work</h2>
+<p>When you create or join a quiz room, a 6-digit room code links two phones (a Host and a Player) together for
+the duration of one quiz game. Your display name and quiz answers are synced through Firebase Realtime Database
+only between those two phones. A room code is used once and is not reused for a new game.</p>
+<h2 id="4-data-sharing">4. Data Sharing</h2>
+<ul>
+<li>We do <strong>not</strong> sell your personal information.</li>
+<li><strong>Advertising ID</strong> may be shared with our attribution partners (Adjust, Meta, TikTok) solely to measure how
+  the App was discovered/installed. This version of the App shows no advertisements.</li>
+<li><strong>Crash and diagnostic data</strong> is shared with Google Firebase (Crashlytics, Analytics) to help us keep the
+  App stable.</li>
+<li>We do not share your display name or quiz answers with any third party outside of the two phones in your
+  own game room.</li>
+</ul>
+<h2 id="5-data-storage-security">5. Data Storage &amp; Security</h2>
+<p>All data in transit between the App and our servers (Firebase) is encrypted using HTTPS/TLS. Your game history
+(completed quiz results) is stored locally on your device. A finished game's session data on our server is only
+needed to let both phones display the same result; it is not used for any purpose beyond that game.</p>
+<h2 id="6-your-choices-data-deletion">6. Your Choices &amp; Data Deletion</h2>
+<ul>
+<li>You can change your display name at any time in <strong>Settings</strong>.</li>
+<li>You can delete your locally stored game history at any time via <strong>Settings → Delete History</strong>.</li>
+<li>Because the App does not use accounts, there is no account to delete. If you would like any residual
+  session data associated with your device removed from our servers, contact us at <strong>contact@bblvn.store</strong>
+  and we will action the request without unreasonable delay.</li>
+</ul>
+<h2 id="7-childrens-privacy">7. Children's Privacy</h2>
+<p>LoveSync: Couple Quiz is designed for couples (ages 18 and older) and is not directed at children. We do not
+knowingly collect personal information from children. If you believe a child has provided us with personal
+information, please contact us and we will remove it.</p>
+<h2 id="8-third-party-services">8. Third-Party Services</h2>
+<p>The App uses the following third-party services, each governed by its own privacy policy:
+- Google Firebase (Authentication, Realtime Database, Analytics, Crashlytics) — https://firebase.google.com/support/privacy
+- Adjust — https://www.adjust.com/privacy-policy/
+- Meta (Facebook) — https://www.facebook.com/privacy/policy/
+- TikTok for Business — https://ads.tiktok.com/i18n/official/policy/privacy</p>
+<h2 id="9-changes-to-this-policy">9. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Changes will be posted at this same URL with an updated
+effective date. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+<h2 id="10-contact-us">10. Contact Us</h2>
+<p>If you have questions about this Privacy Policy or how your data is handled, contact us at:</p>
+<p><strong>BBL TECHNOLOGY LTD</strong>
+Email: contact@bblvn.store
+Website: https://bblvn.store/</p></div></div></body></html>
